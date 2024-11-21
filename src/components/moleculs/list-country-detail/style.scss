@@ -1,0 +1,117 @@
+.list-country-detail {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 16px;
+	.sublabel {
+		width: 100%;
+		max-width: 20%;
+		color: #828b9c;
+		font-family: 'Public Sans';
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 150%;
+		letter-spacing: 0.08px;
+	}
+	.desc {
+		color: #292d35;
+		font-family: 'Public Sans';
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 150%;
+		letter-spacing: 0.08px;
+		text-decoration: none;
+		overflow-wrap: anywhere;
+	}
+	.icon {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+/* Small mobile */
+@media (min-width: 320px) and (max-width: 374px) {
+	.list-country-detail {
+		flex-direction: column;
+		align-items: flex-start;
+		.sublabel {
+			max-width: 100%;
+		}
+	}
+}
+
+/* Medium mobile */
+@media (min-width: 375px) and (max-width: 424px) {
+	.list-country-detail {
+		flex-direction: column;
+		align-items: flex-start;
+		.sublabel {
+			max-width: 100%;
+		}
+	}
+}
+
+/* Large mobile */
+@media (min-width: 425px) and (max-width: 599px) {
+	.list-country-detail {
+		flex-direction: column;
+		align-items: flex-start;
+		.sublabel {
+			max-width: 100%;
+		}
+	}
+}
+
+/* Small tablet */
+@media (min-width: 600px) and (max-width: 767px) {
+	.list-country-detail {
+		flex-direction: column;
+		align-items: flex-start;
+		.sublabel {
+			max-width: 100%;
+		}
+	}
+}
+
+/* Medium tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+	.list-country-detail {
+		flex-direction: column;
+		align-items: flex-start;
+		.sublabel {
+			max-width: 100%;
+		}
+	}
+}
+
+/* Large tablet */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Small laptop */
+@media (min-width: 1280px) and (max-width: 1439px) {
+}
+
+/* Medium laptop */
+@media (min-width: 1440px) and (max-width: 1599px) {
+}
+
+/* Large laptop */
+@media (min-width: 1600px) and (max-width: 1919px) {
+}
+
+/* Small desktop */
+@media (min-width: 1920px) and (max-width: 2559px) {
+}
+
+/* Large desktop */
+@media (min-width: 2560px) and (max-width: 3439px) {
+}
+
+/* Ultra-Wide screens */
+@media (min-width: 3440px) and (max-width: 3839px) {
+}
+
+/* 4K screens */
+@media (min-width: 3840px) {
+}

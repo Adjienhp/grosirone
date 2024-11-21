@@ -1,0 +1,99 @@
+#country-partnership {
+	.title-wrapper {
+		padding: 24px 0;
+		text-align: center;
+		.title {
+			font-family: 'Public Sans';
+			font-size: 32px;
+			font-weight: 600;
+			line-height: 100%;
+			color: #292d35;
+		}
+	}
+	.country-partnership-wrapper {
+		padding-bottom: 80px;
+		.table {
+			tbody {
+				tr {
+					td {
+						padding: 8px 0;
+						vertical-align: middle;
+					}
+				}
+			}
+		}
+		.btn-custom {
+			border: none;
+			outline: none;
+			border-radius: 8px;
+			background: #8d1f8d;
+			padding: 12px 16px;
+			color: #fff;
+			font-family: 'Public Sans';
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 100%;
+			letter-spacing: 0.09px;
+		}
+	}
+}
+
+/* Small mobile */
+@media (min-width: 320px) and (max-width: 374px) {
+	#country-partnership {
+		.breadcrumb {
+			.label {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+}
+
+/* Medium mobile */
+@media (min-width: 375px) and (max-width: 424px) {
+}
+
+/* Large mobile */
+@media (min-width: 425px) and (max-width: 599px) {
+}
+
+/* Small tablet */
+@media (min-width: 600px) and (max-width: 767px) {
+}
+
+/* Medium tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Large tablet */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Small laptop */
+@media (min-width: 1280px) and (max-width: 1439px) {
+}
+
+/* Medium laptop */
+@media (min-width: 1440px) and (max-width: 1599px) {
+}
+
+/* Large laptop */
+@media (min-width: 1600px) and (max-width: 1919px) {
+}
+
+/* Small desktop */
+@media (min-width: 1920px) and (max-width: 2559px) {
+}
+
+/* Large desktop */
+@media (min-width: 2560px) and (max-width: 3439px) {
+}
+
+/* Ultra-Wide screens */
+@media (min-width: 3440px) and (max-width: 3839px) {
+}
+
+/* 4K screens */
+@media (min-width: 3840px) {
+}

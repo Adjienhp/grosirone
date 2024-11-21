@@ -1,0 +1,37 @@
+.table {
+	margin: 0;
+	thead {
+		tr {
+			th {
+				font-family: 'Public Sans';
+				font-weight: 600;
+				line-height: 21px;
+				letter-spacing: 0.005em;
+				color: #292d35;
+			}
+		}
+	}
+	tbody {
+		tr {
+			td {
+				font-family: 'Public Sans';
+				font-weight: 600;
+				line-height: 21px;
+				letter-spacing: 0.005em;
+				color: #292d35;
+				padding: 0;
+				.flex {
+					width: fit-content;
+					display: flex;
+					align-items: center;
+					gap: 8px;
+					cursor: pointer;
+					padding: 16px 8px;
+					.icon {
+						font-size: xx-large;
+					}
+				}
+			}
+		}
+	}
+}
